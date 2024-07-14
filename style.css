@@ -165,7 +165,7 @@ p {
 
 @media screen and (max-width:400px) {
     body{
-        width:100%;
+        max-width:100%;
     }
 
     main {
