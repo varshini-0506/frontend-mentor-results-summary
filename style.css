@@ -164,15 +164,24 @@ p {
 }
 
 @media screen and (max-width:400px) {
+    body{
+        width:100%;
+    }
+
     main {
         display: flex;
         flex-direction: column;
-        max-width: auto;
     }
 
     .left,
     .right {
+        width: auto;
         max-width: 100%;
+    }
+    
+    .left{
+       border-top-left-radius: 0px;
+       border-top-right-radius: 0px;
     }
 
     .right{
