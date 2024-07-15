@@ -164,28 +164,27 @@ p {
 }
 
 @media screen and (max-width:400px) {
-    body{
-        max-width:100%;
-    }
-
     main {
-        display: flex;
         flex-direction: column;
+        width: 100%;
+        margin: 0px;
     }
 
     .left,
     .right {
+        flex: 1;
         width: auto;
-        max-width: 100%;
     }
     
     .left{
        border-top-left-radius: 0px;
        border-top-right-radius: 0px;
+       padding: 10px;
     }
 
     .right{
         box-shadow: none;
+        padding: 20px;
 
     }
 }
